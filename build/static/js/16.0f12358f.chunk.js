@@ -1,0 +1,2 @@
+(this["webpackJsonpQuicksafe-web"]=this["webpackJsonpQuicksafe-web"]||[]).push([[16],{1084:function(e,s,t){"use strict";t.r(s);t(1);var c=t(6);s.default=function(){return Object(c.jsx)("h1",{children:" Tous les centres de sant\xe9 "})}}}]);
+//# sourceMappingURL=16.0f12358f.chunk.js.map
