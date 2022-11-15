@@ -56,7 +56,8 @@
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.0.16",
     "toasted-notes": "^3.2.0",
-    "toastr": "^2.1.4"
+    "toastr": "^2.1.4",
+    "vercel": "^28.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",
@@ -66,6 +67,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
